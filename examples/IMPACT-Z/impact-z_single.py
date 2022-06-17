@@ -146,11 +146,19 @@ def main():
 	# quad4 = Real     (lb[3], ub[3], transform="normalize", name="quad4")
 	# quad5 = Real     (lb[4], ub[4], transform="normalize", name="quad5")			
 	
-	quad1 = Real     (-0.05, 0.05, transform="normalize", name="quad1")
-	quad2 = Real     (-0.05, 0.05, transform="normalize", name="quad2")
-	quad3 = Real     (-0.05, 0.05, transform="normalize", name="quad3")
-	quad4 = Real     (-0.05, 0.05, transform="normalize", name="quad4")
-	quad5 = Real     (-0.05, 0.05, transform="normalize", name="quad5")			
+    
+	quad1 = Real     (-0.12, 0.12, transform="normalize", name="quad1")
+	quad2 = Real     (-0.12, 0.12, transform="normalize", name="quad2")
+	quad3 = Real     (-0.12, 0.12, transform="normalize", name="quad3")
+	quad4 = Real     (-0.12, 0.12, transform="normalize", name="quad4")
+	quad5 = Real     (-0.12, 0.12, transform="normalize", name="quad5")
+    
+    
+	# quad1 = Real     (-0.05, 0.05, transform="normalize", name="quad1")
+	# quad2 = Real     (-0.05, 0.05, transform="normalize", name="quad2")
+	# quad3 = Real     (-0.05, 0.05, transform="normalize", name="quad3")
+	# quad4 = Real     (-0.05, 0.05, transform="normalize", name="quad4")
+	# quad5 = Real     (-0.05, 0.05, transform="normalize", name="quad5")			
 	
 
 
@@ -191,6 +199,7 @@ def main():
 	# giventask = [["big.rua"]]	
 	data = Data(problem)
 	Pdefault = [0,0,0,0,0]
+	# Pdefault = [-0.255436,-0.016729999999999998,0.020847000000000001,0.24979100000000001,0.191973] #with 1000 iteration, intervals [-0.6,0.6]
 	data.P = [[Pdefault]] * ntask
 
 	if(TUNER_NAME=='GPTune'):

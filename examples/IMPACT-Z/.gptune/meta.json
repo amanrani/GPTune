@@ -11,8 +11,8 @@
     "openmpi": {
       "version_split": [
         4,
-        0,
-        1
+        1,
+        2
       ]
     },
     "scalapack": {
@@ -42,8 +42,8 @@
     "openmpi": {
       "version_split": [
         4,
-        0,
-        1
+        1,
+        2
       ]
     },
     "scalapack": {
