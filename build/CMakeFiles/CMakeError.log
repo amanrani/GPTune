@@ -1,0 +1,32 @@
+Performing C SOURCE FILE Test qoptmatmul failed with the following output:
+Change Dir: /global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16fe5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16fe5.dir/build.make CMakeFiles/cmTC_16fe5.dir/build
+gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16fe5.dir/src.c.o
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc -Dqoptmatmul  -std=c++11 -fopenmp    -qopt-matmul -o CMakeFiles/cmTC_16fe5.dir/src.c.o -c /global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option '-qopt-matmul'
+gmake[1]: *** [CMakeFiles/cmTC_16fe5.dir/build.make:78: CMakeFiles/cmTC_16fe5.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_16fe5/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing Fortran SOURCE FILE Test GNU10 failed with the following output:
+Change Dir: /global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6821/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6821.dir/build.make CMakeFiles/cmTC_b6821.dir/build
+gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_b6821.dir/src.F90.o
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90 -DGNU10  -fno-range-check -ffree-line-length-none -ffixed-line-length-none -fimplicit-none -lpthread -fopenmp -fopenmp    -fallow-argument-mismatch -c /global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp/src.F90 -o CMakeFiles/cmTC_b6821.dir/src.F90.o
+gfortran: error: unrecognized command line option '-fallow-argument-mismatch'; did you mean '-Wno-argument-mismatch'?
+gmake[1]: *** [CMakeFiles/cmTC_b6821.dir/build.make:78: CMakeFiles/cmTC_b6821.dir/src.F90.o] Error 1
+gmake[1]: Leaving directory '/global/cscratch1/sd/arani/GPTune/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b6821/fast] Error 2
+
+
+Source file was:
+       program test
+       stop
+       end program

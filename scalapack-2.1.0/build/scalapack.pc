@@ -1,0 +1,9 @@
+prefix=/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build
+libdir=/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/lib
+
+Name: scalapack
+Description: SCALAPACK reference implementation
+Version: 2.1.0
+URL: http://www.netlib.org/scalapack/
+Libs: -L/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/lib -lscalapack
+Requires: mpi lapack blas

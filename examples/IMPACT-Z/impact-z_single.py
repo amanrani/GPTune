@@ -199,7 +199,7 @@ def main():
 	# giventask = [["big.rua"]]	
 	data = Data(problem)
 	Pdefault = [0,0,0,0,0]
-	# Pdefault = [-0.255436,-0.016729999999999998,0.020847000000000001,0.24979100000000001,0.191973] #with 1000 iteration, intervals [-0.6,0.6]
+	# Pdefault = [-0.255436,-0.016729999999999998,0.020847000000000001,0.24979100000000001,0.191973] #with 1000 iterations, intervals [-0.6,0.6]
 	data.P = [[Pdefault]] * ntask
 
 	if(TUNER_NAME=='GPTune'):

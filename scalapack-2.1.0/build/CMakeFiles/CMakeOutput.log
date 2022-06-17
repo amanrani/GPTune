@@ -1,0 +1,496 @@
+The system is: Linux - 5.3.18-24.107-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90 
+Build flags: -fopenmp
+Id flags: -v 
+
+The output was:
+0
+Driving: /opt/gcc/8.3.0/bin/../snos/bin/gfortran -fopenmp -v CMakeFortranCompilerId.F -I/global/common/software/m3169/openmpi/4.1.2/gnu/include -pthread -I/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl,-rpath -Wl,/global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl,--enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 8.3.0 20190222 (Cray Inc.) (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccVpbwQe.f90 -quiet -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib -D_REENTRANT CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fopenmp -fintrinsic-modules-path /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude -o /tmp/ccRNQOo3.s
+GNU Fortran (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../x86_64-suse-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /global/common/software/m3169/openmpi/4.1.2/gnu/include
+ /global/common/software/m3169/openmpi/4.1.2/gnu/lib
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include
+ /usr/local/include
+ /opt/gcc/8.3.0/snos/include
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib --64 -o /tmp/ccxyeJ9R.o /tmp/ccRNQOo3.s
+GNU assembler version 2.37 (x86_64-suse-linux) using BFD version (GNU Binutils; SUSE Linux Enterprise 15) 2.37.20211103-7.26
+Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/
+Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2 -plugin /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc86831G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../.. /tmp/ccxyeJ9R.o -rpath /global/common/software/m3169/openmpi/4.1.2/gnu/lib --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/3.22.1/CompilerIdFortran/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7c35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7c35.dir/build.make CMakeFiles/cmTC_b7c35.dir/build
+gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc   -v -o CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -c /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gcc
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 8.3.0 20190222 (Cray Inc.) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/cc1 -quiet -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -D_REENTRANT /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccHvgaAl.s
+GNU C17 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../x86_64-suse-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /global/common/software/m3169/openmpi/4.1.2/gnu/include
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include
+ /usr/local/include
+ /opt/gcc/8.3.0/snos/include
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18c913d14c2df2724885adb77763cb60
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ as -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include --64 -o CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o /tmp/ccHvgaAl.s
+GNU assembler version 2.37 (x86_64-suse-linux) using BFD version (GNU Binutils; SUSE Linux Enterprise 15) 2.37.20211103-7.26
+COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_b7c35
+/global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7c35.dir/link.txt --verbose=1
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -o cmTC_b7c35 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 8.3.0 20190222 (Cray Inc.) (GCC) 
+COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b7c35' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2 -plugin /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvxzpn9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b7c35 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../.. CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -rpath /global/common/software/m3169/openmpi/4.1.2/gnu/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b7c35' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/global/common/software/m3169/openmpi/4.1.2/gnu/include]
+    add: [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/opt/gcc/8.3.0/snos/include]
+    add: [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/global/common/software/m3169/openmpi/4.1.2/gnu/include] ==> [/global/common/software/m3169/openmpi/4.1.2/gnu/include]
+  collapse include dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/gcc/8.3.0/snos/include] ==> [/opt/gcc/8.3.0/snos/include]
+  collapse include dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/global/common/software/m3169/openmpi/4.1.2/gnu/include;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include;/usr/local/include;/opt/gcc/8.3.0/snos/include;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7c35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7c35.dir/build.make CMakeFiles/cmTC_b7c35.dir/build]
+  ignore line: [gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc   -v -o CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -c /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gcc]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c c++ fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 20190222 (Cray Inc.) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/cc1 -quiet -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -D_REENTRANT /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccHvgaAl.s]
+  ignore line: [GNU C17 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0 20190222 (Cray Inc.)  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../x86_64-suse-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /global/common/software/m3169/openmpi/4.1.2/gnu/include]
+  ignore line: [ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/gcc/8.3.0/snos/include]
+  ignore line: [ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0 20190222 (Cray Inc.)  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18c913d14c2df2724885adb77763cb60]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include --64 -o CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o /tmp/ccHvgaAl.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-suse-linux) using BFD version (GNU Binutils]
+  ignore line: [ SUSE Linux Enterprise 15) 2.37.20211103-7.26]
+  ignore line: [COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_b7c35]
+  ignore line: [/global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7c35.dir/link.txt --verbose=1]
+  ignore line: [/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -o cmTC_b7c35 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c c++ fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 20190222 (Cray Inc.) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b7c35' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2 -plugin /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvxzpn9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b7c35 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../.. CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o -rpath /global/common/software/m3169/openmpi/4.1.2/gnu/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvxzpn9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b7c35] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> obj [/usr/lib/../lib64/crt1.o]
+    arg [/usr/lib/../lib64/crti.o] ==> obj [/usr/lib/../lib64/crti.o]
+    arg [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o] ==> obj [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o]
+    arg [-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> dir [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_b7c35.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o] ==> obj [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o]
+    arg [/usr/lib/../lib64/crtn.o] ==> obj [/usr/lib/../lib64/crtn.o]
+  collapse obj [/usr/lib/../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64] ==> [/opt/gcc/8.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..] ==> [/opt/gcc/8.3.0/snos/lib]
+  implicit libs: [mpi;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/global/common/software/m3169/openmpi/4.1.2/gnu/lib;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0;/opt/gcc/8.3.0/snos/lib64;/lib64;/usr/lib64;/opt/gcc/8.3.0/snos/lib]
+  implicit fwks: []
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9725a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9725a.dir/build.make CMakeFiles/cmTC_9725a.dir/build
+gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90   -fopenmp    -v -c /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gfortran
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 8.3.0 20190222 (Cray Inc.) (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/f951 /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccg44vw9.f90 -quiet -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib -D_REENTRANT /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -version -fopenmp -fintrinsic-modules-path /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude -o /tmp/ccUcGGO9.s
+GNU Fortran (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../x86_64-suse-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /global/common/software/m3169/openmpi/4.1.2/gnu/include
+ /global/common/software/m3169/openmpi/4.1.2/gnu/lib
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include
+ /usr/local/include
+ /opt/gcc/8.3.0/snos/include
+ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)
+	compiled by GNU C version 8.3.0 20190222 (Cray Inc.), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib --64 -o CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o /tmp/ccUcGGO9.s
+GNU assembler version 2.37 (x86_64-suse-linux) using BFD version (GNU Binutils; SUSE Linux Enterprise 15) 2.37.20211103-7.26
+COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking Fortran executable cmTC_9725a
+/global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9725a.dir/link.txt --verbose=1
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90  -v -fopenmp  CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9725a 
+Driving: /opt/gcc/8.3.0/bin/../snos/bin/gfortran -v -fopenmp CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9725a -I/global/common/software/m3169/openmpi/4.1.2/gnu/include -pthread -I/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl,-rpath -Wl,/global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl,--enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c,c++,fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib
+Thread model: posix
+gcc version 8.3.0 20190222 (Cray Inc.) (GCC) 
+Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-fopenmp' '-o' 'cmTC_9725a' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/
+LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/
+Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-v' '-fopenmp' '-o' 'cmTC_9725a' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2 -plugin /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmIjdBO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9725a /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../.. CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -rpath /global/common/software/m3169/openmpi/4.1.2/gnu/lib --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-fopenmp' '-o' 'cmTC_9725a' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/global/common/software/m3169/openmpi/4.1.2/gnu/include]
+    add: [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+    add: [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude]
+    add: [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/opt/gcc/8.3.0/snos/include]
+    add: [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/global/common/software/m3169/openmpi/4.1.2/gnu/include] ==> [/global/common/software/m3169/openmpi/4.1.2/gnu/include]
+  collapse include dir [/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+  collapse include dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude]
+  collapse include dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/gcc/8.3.0/snos/include] ==> [/opt/gcc/8.3.0/snos/include]
+  collapse include dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/global/common/software/m3169/openmpi/4.1.2/gnu/include;/global/common/software/m3169/openmpi/4.1.2/gnu/lib;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include;/usr/local/include;/opt/gcc/8.3.0/snos/include;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9725a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9725a.dir/build.make CMakeFiles/cmTC_9725a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90   -fopenmp    -v -c /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gfortran]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c c++ fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 20190222 (Cray Inc.) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/f951 /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccg44vw9.f90 -quiet -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib -D_REENTRANT /global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/share/cmake-3.22/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -version -fopenmp -fintrinsic-modules-path /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude -o /tmp/ccUcGGO9.s]
+  ignore line: [GNU Fortran (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0 20190222 (Cray Inc.)  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../x86_64-suse-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /global/common/software/m3169/openmpi/4.1.2/gnu/include]
+  ignore line: [ /global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+  ignore line: [ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/finclude]
+  ignore line: [ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/gcc/8.3.0/snos/include]
+  ignore line: [ /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 8.3.0 20190222 (Cray Inc.) (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0 20190222 (Cray Inc.)  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v -I /global/common/software/m3169/openmpi/4.1.2/gnu/include -I /global/common/software/m3169/openmpi/4.1.2/gnu/lib --64 -o CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o /tmp/ccUcGGO9.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-suse-linux) using BFD version (GNU Binutils]
+  ignore line: [ SUSE Linux Enterprise 15) 2.37.20211103-7.26]
+  ignore line: [COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking Fortran executable cmTC_9725a]
+  ignore line: [/global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9725a.dir/link.txt --verbose=1]
+  ignore line: [/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90  -v -fopenmp  CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9725a ]
+  ignore line: [Driving: /opt/gcc/8.3.0/bin/../snos/bin/gfortran -v -fopenmp CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9725a -I/global/common/software/m3169/openmpi/4.1.2/gnu/include -pthread -I/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl -rpath -Wl /global/common/software/m3169/openmpi/4.1.2/gnu/lib -Wl --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc/8.3.0/bin/../snos/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../cray-gcc-8.3.0-201903122028.16ea96cb84a9a/configure --prefix=/opt/gcc/8.3.0/snos --disable-nls --libdir=/opt/gcc/8.3.0/snos/lib --enable-languages=c c++ fortran --with-gxx-include-dir=/opt/gcc/8.3.0/snos/include/g++ --with-slibdir=/opt/gcc/8.3.0/snos/lib --with-system-zlib --enable-shared --enable-__cxa_atexit --build=x86_64-suse-linux --with-ppl --with-cloog --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 20190222 (Cray Inc.) (GCC) ]
+  ignore line: [Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-fopenmp' '-o' 'cmTC_9725a' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [COMPILER_PATH=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/]
+  ignore line: [LIBRARY_PATH=/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-fopenmp' '-o' 'cmTC_9725a' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/include' '-pthread' '-I' '/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2 -plugin /opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so -plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmIjdBO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9725a /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o -L/global/common/software/m3169/openmpi/4.1.2/gnu/lib -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../.. CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o -rpath /global/common/software/m3169/openmpi/4.1.2/gnu/lib --enable-new-dtags -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc/8.3.0/snos/libexec/gcc/x86_64-suse-linux/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmIjdBO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9725a] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> obj [/usr/lib/../lib64/crt1.o]
+    arg [/usr/lib/../lib64/crti.o] ==> obj [/usr/lib/../lib64/crti.o]
+    arg [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o] ==> obj [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o]
+    arg [-L/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> dir [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..] ==> dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..]
+    arg [CMakeFiles/cmTC_9725a.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+    arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+    arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o] ==> obj [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o]
+    arg [/usr/lib/../lib64/crtn.o] ==> obj [/usr/lib/../lib64/crtn.o]
+  collapse obj [/usr/lib/../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/global/common/software/m3169/openmpi/4.1.2/gnu/lib] ==> [/global/common/software/m3169/openmpi/4.1.2/gnu/lib]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0] ==> [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../../../lib64] ==> [/opt/gcc/8.3.0/snos/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/../../..] ==> [/opt/gcc/8.3.0/snos/lib]
+  implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;m;gomp;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtbegin.o;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/global/common/software/m3169/openmpi/4.1.2/gnu/lib;/opt/gcc/8.3.0/snos/lib/gcc/x86_64-suse-linux/8.3.0;/opt/gcc/8.3.0/snos/lib64;/lib64;/usr/lib64;/opt/gcc/8.3.0/snos/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran dgesv exists passed with the following output:
+Change Dir: /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a413/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a413.dir/build.make CMakeFiles/cmTC_9a413.dir/build
+gmake[1]: Entering directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_9a413.dir/testFortranCompiler.f.o
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90   -fopenmp  -c /global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_9a413.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_9a413
+/global/common/software/nersc/cori-2022q1/spack/cray-cnl7-haswell/cmake-3.22.1-zdiyyvt/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a413.dir/link.txt --verbose=1
+/global/common/software/m3169/cori/openmpi/4.1.2/gnu/bin/mpif90 -fopenmp  CMakeFiles/cmTC_9a413.dir/testFortranCompiler.f.o -o cmTC_9a413  -Wl,-rpath,/opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/lib/intel64 /opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/lib/intel64/libmkl_gf_lp64.so /opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/lib/intel64/libmkl_gnu_thread.so /opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/lib/intel64/libmkl_core.so -lgomp 
+gmake[1]: Leaving directory '/global/cscratch1/sd/arani/GPTune/scalapack-2.1.0/build/CMakeFiles/CMakeTmp'
+
+
+
