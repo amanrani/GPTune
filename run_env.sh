@@ -6,36 +6,36 @@
 
 
 ################ summit
-export machine=summit
-export proc=power9   
-export mpi=spectrummpi  
-export compiler=gnu   
-export nodes=1  # number of nodes to be used
+#export machine=summit
+#export proc=power9   
+#export mpi=spectrummpi  
+#export compiler=gnu   
+#export nodes=1  # number of nodes to be used
 
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
 # # ################ Any mac os machine that has used config_macbook.zsh to build GPTune
 # export machine=mac
 # export proc=intel   
 # export mpi=openmpi  
 # export compiler=gnu   
 # export nodes=1  # number of nodes to be used
-=======
+#=======
 # # # ################ Any mac os machine that has used config_macbook.zsh to build GPTune
 #  export machine=mac
 #  export proc=intel   
 #  export mpi=openmpi  
 #  export compiler=gnu   
 #  export nodes=1  # number of nodes to be used
->>>>>>> 149b8d890cc9b047b3f4675ae731ba6c9fc991e3
+#>>>>>>> 149b8d890cc9b047b3f4675ae731ba6c9fc991e3
 
 
 # # ############### Cori
-#  export machine=cori
-#  export proc=haswell   # knl,haswell
-#  export mpi=openmpi  # openmpi,craympich
-#  export compiler=gnu   # gnu, intel	
-#  export nodes=1  # number of nodes to be used
+  export machine=cori
+  export proc=haswell   # knl,haswell
+  export mpi=openmpi  # openmpi,craympich
+  export compiler=gnu   # gnu, intel	
+  export nodes=1  # number of nodes to be used
 
 
 ############### Perlmutter

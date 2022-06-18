@@ -238,7 +238,8 @@
             !112 format(A)
             
                   call flush(2)
-            else       
+            
+              else       
             
                   objtmp1 = 0.0d0
                   close(18)
@@ -289,4 +290,5 @@
                   close(11)
                   call flush(11)
             endif
+                  print*,"Xx: ",XX(1:nparm),nparm
           end subroutine FTN
